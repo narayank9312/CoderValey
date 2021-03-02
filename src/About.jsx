@@ -1,9 +1,16 @@
 import React from 'react'
+import Common from './Common'
+import web from '../src/img/study1.jpg';
 
-function About() {
+const About = () => {
     return (
         <div>
-            <h1> Welcome About Page </h1>
+            <Common 
+            name="Welcome to about page"
+            imgsrc={web}
+            visit="/contact"
+            btname="Contact Now"
+            />
         </div>
     )
 }

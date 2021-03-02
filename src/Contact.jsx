@@ -1,6 +1,6 @@
 import React from 'react'
 
-function About() {
+function Contact() {
     return (
         <div>
             <h1> Welcome Contact Page </h1>
@@ -8,4 +8,4 @@ function About() {
     )
 }
 
-export default About
+export default Contact
