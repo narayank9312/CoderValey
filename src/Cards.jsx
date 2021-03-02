@@ -1,5 +1,5 @@
 import React from 'react';
-import service from './service';
+import service from '../src/containers/service';
 import {NavLink} from 'react-router-dom';
 
 const cards = (props) => {

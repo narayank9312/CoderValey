@@ -1,6 +1,6 @@
 import React from 'react'
-import Common from './Common'
-import web from '../src/img/study1.jpg';
+import Common from '../Common'
+import web from '../img/study.jpg';
 
 const About = () => {
     return (

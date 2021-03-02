@@ -1,4 +1,4 @@
-import web from '../src/img/rocket.jpg';
+import web from './img/rocket.jpg';
 
 const Sdata = [
 {

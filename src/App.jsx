@@ -2,11 +2,12 @@ import React from 'react';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import {Switch , Route, Redirect} from 'react-router-dom';
-import Home from './Home';
-import  Contact from './Contact';
-import Service from './service';
-import About from './About';
+import Home from '../src/containers/Home';
+import  Contact from '../src/containers/Contact';
+import Service from '../src/containers/service';
+import About from '../src/containers/About';
 import Navbar from "./Navbar";
+import Footer from "../src/containers/Footer"
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Redirect to="/" />
         
       </Switch>
+      <Footer />
     </>
   );
 };
