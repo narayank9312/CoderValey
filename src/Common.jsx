@@ -12,7 +12,7 @@ const Common = (props) => {
           <div className="row">
             <div className="col-10 mx-auto">
               <div className="row">
-                <div className="col-md-4 col-10 mx-auto">
+                <div className="col-md-4 pt-5 pt-lg-0 order-2 col-10 mx-auto">
                   <h1>
                     {props.name}
                     <br />
@@ -28,7 +28,7 @@ const Common = (props) => {
                   </div>
                 </div>
 
-                <div className="col-md-4 col-10 mx-auto">
+                <div className="col-md-4  order-1 order-lg-2 col-10 mx-auto header-img">
                   <img
                     src={props. imgsrc}
                     className="img-fluid animated"
